@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Asegura que los margenes y los rellenos se incluyan dentro del tamaño total del elemento  */ 
+}
+
+body {
+    display:flex;
+    align-items: center; /*alinea los elemntos sencundario en el centro de manera vertical dentro del contenedor felxible*/
+    min-height: 100vh;
+    width: 100%;
+    justify-content: center;
+    padding:  0 10px;;
+    background-image: url(/backtoschool.jpg) ;
+}
+
+
+.container{
+    width: 415px;
+    border-radius: 9px;
+    padding:32px;
+    border: 2px solid rgb(199, 199, 234);
+    backdrop-filter: blur(5px); /*Aplica un filtro de desenfoque (5px) al fondo que se encuentra detrás del elemento. Esto hace que el contenido detrás del elemento se vea borroso.*/
+}
+
+.contenido{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
